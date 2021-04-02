@@ -292,6 +292,9 @@ hr {
     background-color: #f7f9fb;
 }
 
+.educationAndSkills{
+    margin-left: 20%;
+}
 
 .download{    
 
@@ -866,5 +869,8 @@ hr {
     color: black;
     text-Align: right;
 
+}
+.educationAndSkills{
+    margin-left: -30pt;
 }
 }
