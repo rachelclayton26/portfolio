@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light style="background-color: none;">
+        <div class="container-fluid" id="navFluid">
+            <a class="navbar-brand" href="#">Rachel Christopher</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+            
+                    <li class="nav-item">
+                    <a class="nav-link" href="#about">about</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">resume</a>
+                        </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">porfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <button class="actionbutton" id="getInTouch">
+                        <a class="nav-link" href="#contact">get in touch</a>
+                        </button>
+                    </li>
+                
+            </ul>
+            </div>
+        </div>
+    </nav>
+    
+<!-- HEADER -->
+<div class="container-fluid">
+    <div class="landing">
+        <div class="greetingContainer">
+            <div class="hello">Hello.</div>
+            <div class="heMobile">He</div>
+            <div class="llMobile">ll</div>
+            <div class="oMobile">o.</div>
+            <div class="welcomeBonjour">welcome. bonjour.</div>
+        </div>
+    <div class="scrollWhite">
+        <div class="scroll">Scroll</div>
+        <img class="WhiteArrow" src="./assets/whiteArrow.png" width="8">
+    </div>
+    <div class="scrollBlack">
+        <div class="welcomeBonjourMobile">welcome. bonjour.</div>
+        <img class="BlackArrow" src="./assets/blackArrow.png" width="15">
+        </div>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<div id="about">
+<div class="container-fluid">
+    <div class="about">
+        <div class="row">
+
+            <div class="col-sm">
+                    <div class="scaleable-wrapper" id="scaleable-wrapper">
+                        <div class="imgContainer" id="imgContainer">
+                            <img class="aboutImg" src="./assets/about_Rachel_Christopher.jpg" width="800">
+                            <div class="shadowBox">
+                                <div class="lable">Cortona, Italy</div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="col-sm">
+                <div class="aboutText">
+                    <h1 class="name">i'm rachel</h1>
+                    <p>...a junior developer, fashion designer, and brand strategist based in Indianapolis, IN. I'm a Summa Cum Laude Purdue University graduate in Apparel Design & Technology. I have 4+ years of experience in creative fashion design, branding, business strategy, and entrepreneurship. Recently, I completed Eleven Fifty Academy's Web Development Bootcamp where I developed skills in web design. I am experienced in taking creative concepts from ideation to market--and enjoy creative problem-solving and designing products that truly meet customers needs and that are beneficial to the bottom-line.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- RESUME -->
+
+<div id="skills">
+<div class="container-fluid">
+    <div class="resume">
+        <div class= "educationAndSkills">
+            <h1>education & skills</h1>
+            <a href="./assets/RC_DesignResume_20.pdf" download></form>
+                <button class="download" type="submit" src="">Download Resume</button>
+            </a>
+        </div>
+        <h2>education</h2>
+        <hr>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <div class="educationContainer">
+                    <img class="edIcon" src="./assets/scroll.png" width="100">
+                    <div class="edHolder">
+                        <h5>Bachelor's Degree</h5>
+                        <h5 id="institution">Purdue University</h5>
+                    </div>
+                    <h6>Apparel Design</h6>
+                    <h6>Summa Cum Laude</h6>
+                    <h6>2011-2015</h6>
+                </div>
+
+              </div>
+
+            <div class="col-sm">
+                <div class="educationContainer">
+                    <img class="edIcon" src="./assets/minor.png" width="100">
+                    <div class="edHolder">
+                        <h5>Minor</h5>
+                        <h5 id="institution">Purdue University</h5>
+                    </div>
+                    <h6>Art & Design</h6>
+                    <h6>2011-2015</h6>
+                </div>
+            </div>
+
+            <div class="col-sm">
+                <div class="educationContainer">
+                    <img class="edIcon" src="./assets/elevenFiftyIcon.png" width="100">
+                    <div class="edHolder">
+                        <h5>Bootcamp</h5>
+                        <h5 id="institution">Eleven Fifty Academy</h5>
+                    </div>
+                    <h6>Web Development</h6>
+                    <h6>2021</h6>
+                </div>
+            </div>
+
+            <div class="col-sm">
+                <div class="educationContainer" id="edCC">
+                    <img class="edIcon" src="./assets/certificate.png" width="100">
+                    <div class="edHolder">
+                        <h5>Certificate</h5>
+                        <h5 id="institution">Purdue University</h5>
+                    </div>
+                    <h6>Entrepreneurship &</h6>
+                    <h6>Innovation</h6>
+                    <h6>2011-2015</h6>
+                </div>
+            </div>
+            
+
+            </div>
+        </div>
+
+        <h2>skills</h2>
+        <hr>
+        <div class="container">
+                <div class="row">
+              <div class="col-sm">
+                <img class="skillIcon" src="./assets/cssIcon.png" width="75">
+                <h6 class="skill">CSS</h6>
+              </div>
+
+              <div class="col-sm">
+                <img class="skillIcon" src="./assets/htmlIcon.png" width="75">
+                <h6 class="skill">HTML</h6>
+              </div>
+
+              <div class="col-sm">
+               <img class="skillIcon" src="./assets/jsIcon.png" width="75">
+                <h6 class="skill">JavaScript</h6>
+              </div>
+
+              <div class="col-sm">
+               <img class="skillIcon" src="./assets/reactIcon.png" width="75">
+                <h6 class="skill">React</h6>
+              </div>
+
+              <div class="col-sm">
+                <img class="skillIcon" src="./assets/bootstrapIcon.png" width="75">
+                <h6 class="skill">Bootstrap</h6>
+              </div>
+
+              <div class="col-sm">
+                <img class="skillIcon" src="./assets/angularIcon.png" width="75">
+                <h6 class="skill">Angular</h6>
+              </div>
+
+              <div class="col-sm">
+                <img class="skillIcon" src="./assets/githubIcon.png" width="75">
+                <h6 class="skill">GitHub</h6>
+              </div>
+
+                </div>
+            <div class="row">
+                <div class="col-sm">
+                  <img class="skillIcon" src="./assets/firebaseIcon.png" width="75">
+                <h6 class="skill">Firebase</h6>
+                </div>
+
+                <div class="col-sm">
+                  <img class="skillIcon" src="./assets/wireframeIcon.png" width="75">
+                <h6 class="skill">Wireframe</h6>
+                <h6 class="skill">Design</h6>
+                </div>
+
+                <div class="col-sm">
+                  <img class="skillIcon" src="./assets/illustratorIcon.png" width="75">
+                <h6 class="skill">Illustrator</h6>
+                </div>
+
+                <div class="col-sm">
+                  <img class="skillIcon" src="./assets/photoshopIcon.png" width="75">
+                <h6 class="skill">Photoshop</h6>
+                </div>
+
+                <div class="col-sm">
+                  <img class="skillIcon" src="./assets/fineartIcon.png" width="75">
+                <h6 class="skill">Fine Art</h6>
+                </div>
+
+                <div class="col-sm">
+                  <img class="skillIcon" src="./assets/patternIcon.png" width="75">
+                <h6 class="skill">Pattern-</h6>
+                <h6 class="skill">Making</h6>
+                </div>
+
+                <div class="col-sm">
+                  <img class="skillIcon" src="./assets/sewIcon.png" width="75">
+                <h6 class="skill">Sewing</h6>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+</div>
+
+<!-- PORTFOLIO -->
+
+<div id="portfolio">
+<div class="container-fluid">
+    <div class="portfolio">
+        <h1>Portfolio</h1>
+        <div class="container">
+            <div class="row">
+                <!-- <div class="portLeft"> -->
+                    <div class="col-sm">
+                        <h2 class="exTitle">Example Title</h2>
+                        <hr>
+                        <p class="explanation">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam quod quisquam, velit natus inventore quae dicta aut, vel eius voluptatem tempore, aspernatur accusantium corporis neque vero temporibus dolor? Voluptatem, officiis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quis, exercitationem dicta nam repudiandae architecto? Soluta excepturi velit illo quos! Velit sequi voluptates necessitatibus autem, temporibus consequuntur dicta reprehenderit corrupti!
+                        </p>
+                    </div>
+                <!-- </div> -->
+                <div class="col-sm">
+                    <div class="scaleable-wrapper-two" id="scaleable-wrapper-two">
+                        <div class="imgContainer-two" id="imgContainer-two">
+                            <img class="portImg" src="./assets/nasaScreen-01.png" width="800">
+                            <div class="shadowBox-port">
+                                <div class="type">Type</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+            <!-- <div class="portButtons">
+                <button class="all">All</button>
+                <button class="webDesign">Web Design</button>
+                <button class="branding">Branding</button>
+                <button class="fashionDesign">Fashion Design</button>
+                <button class="art">Art</button>
+            </div> -->
+
+            <div class="portEx">
+                <div class="container">
+                    <div class="row row-cols-sm-5">
+                        <div class="col">
+                            <div class="portItem" id="poke">
+                                <div class="portfolioHover">
+                                <a href="https://rachelclayton26.github.io/api-1/" target="_blank">
+                                    <img class="portIcon" src="./assets/pokemonTwo.png" width="100">
+                                </a>
+                                </div>
+                                <h5 class="portTitle">Pokémon APi</h5> 
+                            </div> 
+                        </div>   
+
+                        <div class="col">
+                            <div class="portItem" id="">
+                                <a class="portfolioHover" href="https://nasadailyapi.web.app/" target="_blank">
+                                    <img class="portIcon" src="./assets/portNasa.png" width="100">
+                                </a>    
+                            <h5 class="portTitle">Nasa Api</h5> 
+                            </div>       
+                        </div>
+
+                        <div class="col">
+                            <div class="portItem" id="">
+                                <a class="portfolioHover" href="https://codepen.io/rachelclayon/pen/VwmEXRN" target="_blank">
+                                    <img class="portIcon" src="./assets/portKirby-02.png" width="100">
+                                </a>
+                                <h5 class="portTitle">CSS Creature</h5> 
+                            </div>       
+                        </div>
+
+                        <div class="col">
+                            <div class="portItem" id="">
+                                <a class="portfolioHover" href="https://rachelclayton26.github.io/StaticLayout/" target="_blank">
+                                    <img class="portIcon" src="./assets/portHulu.png" width="100">
+                                </a>
+                                <h5 class="portTitle">Static Layout</h5> 
+                            </div>       
+                        </div>
+
+                        <div class="col">
+                            <div class="portItem" id="">
+                                <a class="portfolioHover" href="" target="_blank" disabled>
+                                    <img class="portIcon" src="./assets/place1-05.png" width="100">
+                                </a>
+                                <h5 class="portTitle">Example Project</h5> 
+                            </div>       
+                        </div>
+
+                        <div class="col">
+                            <div class="portItem" id="">
+                                <a class="portfolioHover" href="" target="_blank" disabled>
+                                    <img class="portIcon" src="./assets/place2-06.png" width="100">
+                                </a>
+                                <h5 class="portTitle">Example Project</h5> 
+                            </div>       
+                        </div>
+
+                        <div class="col">
+                            <div class="portItem" id="">
+                                <a class="portfolioHover" href="" target="_blank" disabled>
+                                    <img class="portIcon" src="./assets/place3-07.png" width="100">
+                                </a>
+                                <h5 class="portTitle">Example Project</h5> 
+                            </div>       
+                        </div>
+
+                        <div class="col">
+                            <div class="portItem" id="">
+                                <a class="portfolioHover" href="" target="_blank" disabled>
+                                    <img class="portIcon" src="./assets/place2-06.png" width="100">
+                                </a>
+                                <h5 class="portTitle">Example Project</h5> 
+                            </div>       
+                        </div>
+
+                        <div class="col">
+                            <div class="portItem" id="">
+                                <a class="portfolioHover" href="" target="_blank" disabled>
+                                    <img class="portIcon" src="./assets/place1-05.png" width="100">
+                                </a>
+                                <h5 class="portTitle">Example Project</h5> 
+                            </div>       
+                        </div>
+
+                        <div class="col">
+                            <div class="portItem" id="">
+                                <a class="portfolioHover" href="" target="_blank" disabled>
+                                    <img class="portIcon" src="./assets/place2-06.png" width="100">
+                                </a>
+                                <h5 class="portTitle">Example Project</h5> 
+                            </div>       
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- CONTACT -->
+<div id="contact">
+<div class="container-fluid">
+    <div class="contact">
+    <h3 class="contactSuper">Let's Work Together.</h3>
+    <H1 class="contactTitle">Get In Touch</H1>
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xrgonvwr" method="post">
+        <fieldset id="fs-frm-inputs">
+          <input type="text" name="name" id="full-name" placeholder="name" required="">
+          <input type="email" name="_replyto" id="email-address" placeholder="email" required="">
+          <input type="text" name="_subject" id="email-subject" placeholder="subject">
+          <textarea rows="5" name="message" id="message" placeholder="message" required=""></textarea>
+        </fieldset>
+        <input class="btn" type="submit" value="Submit">
+      </form>
+          
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <div class="copy">Copyright 2021 | Rachel Christopher</div>
+</div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>

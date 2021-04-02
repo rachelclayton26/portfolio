@@ -1,0 +1,870 @@
+************
+/* General CSS*/
+/**************/
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, .scroll, .lable, .type, .copy, .btn {
+    font-family: 'Montserrat';
+}
+
+h1{
+    font-size: 36pt;
+    font-weight: bold;
+    text-transform: lowercase;
+    padding-bottom: .75vw;;
+    color: #d4715b;
+}
+
+h2{
+    font-size: 20pt;
+    font-weight: 600;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+h3{
+    font-size: 15pt;
+    font-weight: 500;
+    text-transform: lowercase;
+    color: #d4715b;
+}
+
+h4{
+    font-size: vw;
+    font-weight: ;
+    text-transform: uppercase;
+}
+
+h5{
+    font-size: 10pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+    font-size: 8.5pt;
+    font-weight: 400;
+}
+
+p{
+    font-size: 13pt;
+    font-weight: ;
+    text-align:justify;
+}
+
+.lable{
+    font-size: 10pt;
+    line-height: 10pt;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    color: white;
+}
+
+.type{
+    font-size: 10pt;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    color: white;
+}
+
+hr {
+    border: 2px solid #d6a084;
+}
+
+/* NAVBAR */
+
+.nav{
+
+}
+
+.navbar.navbar-expand-lg.navbar-light
+{
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+.navbar.navbar-expand-lg {
+}
+
+.navbar-nav{
+    align: justify-content-end;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    letter-spacing: .21vw;
+
+}
+
+.collapse.navbar-collapse{
+    float: right;
+
+}
+
+.nav-item{
+    padding-left: 1.6vw;
+    font-family: 'Montserrat';
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 10pt;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #d4715b;
+}
+
+.actionbutton {
+    border: 2pt solid #d4715b;
+    border-radius: 3pt;
+    text-transform: uppercase;
+    color: #d4715b !important;
+    background-color: #ffffff00;
+    font-family: 'Montserrat';
+}
+
+.actionbutton:hover {
+    border: 2pt solid #d6a084;
+    text-transform: uppercase;
+    background-color: #d6a084;
+    color: white;
+}
+
+
+/* HEADER */
+
+.landing{
+ height: 90vh;
+ background-color: #c47260;
+ margin: 20pt;
+ margin-top: 0;
+}
+
+.greetingContainer{
+    margin-right: 1vw;
+    padding-top: 20vh;
+    height: 79vh;
+}
+
+.hello{
+    font-size: 200pt;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 6pt;
+    color: white;
+    text-Align: right;
+    margin-bottom: -20pt;
+
+}
+
+.heMobile, .llMobile, .oMobile{
+    display: none;
+}
+
+.welcomeBonjour{
+    font-size: 40pt;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: lowercase;
+    letter-spacing: 4pt;
+    color: black;
+    text-Align: right;
+
+}
+
+.scrollWhite{
+    width: 10pt;
+    margin-right: auto;
+    margin-left:auto;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: 2000;
+
+}
+
+.scroll{
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 11px;
+
+}
+
+.whiteArrow{
+    width: 20pt;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+.scrollBlack{
+   display: none;
+}
+
+@keyframes bounce {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-15px); }
+        100% { transform: translateY(0); }
+    }
+
+
+/* ABOUT */
+
+.about{
+    height: auto;
+     padding-top: 60pt;
+     padding-bottom: 60pt;
+     padding-right: 10vw;
+     padding-left: 10vw;
+}
+
+.imgContainer{
+    width: 435pt;
+    height: 535pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.aboutImg{
+    width:400pt;
+    height: 500pt;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    float: left; 
+}
+
+.shadowBox{
+
+    width: 400pt;
+    height: 500pt;
+    background-color: #f3b495;
+    position: absolute;
+    z-index: 1;
+    margin-left: 35pt;
+    margin-top: 35pt;
+}
+
+.lable{
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin-right:13pt;
+    margin-top: 15pt;
+}
+
+.aboutText{
+    height: 35%;
+    margin-top: 35%;
+    margin-bottom: 30%;
+}
+
+.name{
+    text-align: right;
+    width: 100%;
+}
+
+
+/* RESUME */
+.resume{
+    height: auto;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    background-color: #f7f9fb;
+}
+
+
+.download{    
+
+    border: 2pt solid #d4715b;
+    border-radius: 3pt;
+    text-transform: uppercase;
+    color: #d4715b !important;
+    background-color: #ffffff00;
+    font-family: 'Montserrat';
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+    display: flex;
+    float: right;
+
+}
+    
+.download:hover {
+    border: 2pt solid #d6a084;
+    text-transform: uppercase;
+    background-color: #d6a084;
+    color: white;
+}
+
+.skills{
+    display: flex;
+    float: left;
+
+}
+
+.edIcon {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+#institution{
+    text-transform: initial;
+}
+
+.skill{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.edHolder{
+    margin-top: 10pt;
+    margin-bottom: 20pt;
+}
+
+.skillIcon {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio{
+    height: auto;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+.exTitle{
+    text-align: left;
+}
+
+.imgContainer-two{
+    width: 435pt;
+    height: 535pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.portImg{
+    width:400pt;
+    height: 500pt;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    float: right; 
+}
+
+.shadowBox-port{
+
+    width: 400pt;
+    height: 500pt;
+    background-color: #f3b495;
+    position: absolute;
+    z-index: 1;
+    margin-right: 35pt;
+    margin-top: 35pt;
+
+}
+
+.type{
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    position: absolute;
+    z-index: 1;
+    float: right;
+    margin-left:13pt;
+    margin-top: 15pt;
+}
+.portButtons{
+    padding-top: 20pt;
+}
+
+.all, .webDesign, .branding, .fashionDesign, .art{
+    border: 2pt solid #d4715b00;
+    font-size: 10pt;
+    border-radius: 3pt;
+    text-transform: lowercase;
+    color: #0000008c !important;
+    background-color: #ffffff00;
+}
+
+.all:hover, .webDesign:hover, .branding:hover, .fashionDesign:hover, .art:hover{
+    color: #d4715b !important;
+}
+
+.portItem{
+   margin-top: 20pt;
+   margin-top: 20pt;
+}
+
+.portIcon {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.portfolioHover:hover {
+    /* display: block;
+    position: absolute;
+    z-index: 1;
+    width: 12.25%;
+    height: 12.25%;
+    background-color:#46464657; */
+}
+
+.portTitle{
+    margin-top: 10pt;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+/* CONTACT */
+
+#fs-frm{
+    width: 500pt;
+    margin-right: auto;
+    margin-left: auto;
+}
+#full-name, #email-address, #message, #email-subject{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 28pt;
+    margin-bottom: 28pt;
+    border: none;
+    display: flex;
+    width: 100%;
+}
+
+
+.btn{
+    width:100%;
+    border: 2pt solid #d4715b;
+    border-radius: 3pt;
+    text-transform: uppercase;
+    color: black;
+    background-color: #ffffff00;
+    font-family: 'Montserrat';
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+
+    }
+
+
+.btn:hover{
+    width:100%;
+    background-color: #d6a084;
+    border: 2pt solid #d6a084;
+    color: white;
+
+}
+
+.contact{
+   height: auto;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    padding-right: 25vw;
+    padding-left: 25vw;
+    background-color: #f7f9fb;
+}
+
+.contactTitle, .contactSuper{
+    text-align: center;
+}
+.form-control{
+    margin: 25pt;
+}
+
+/* FOOTER */
+
+.footer{
+    height: 20vh;
+    background-color: #c47260;
+}
+
+.copy{
+    line-height: 20vh;
+    text-align: center;
+    color: #ffffff3f;
+    text-transform: uppercase;
+    
+}
+
+/**************/
+/* RESPONSIVE */
+/**************/
+
+@media only screen and (max-width: 575px) {
+
+/* GENERAL */
+    h1{
+        font-size: 32pt;
+    }
+
+/* Home Page */
+    .landing{
+        height: 90vh;
+        background-color: #c47260;
+        margin: 1.5vw;
+        margin-top: 0;
+       }
+
+    .greetingContainer{
+        padding-top: 5vh;
+        margin-left: 2vw;
+        margin-right: auto;
+    }
+
+    .hello{
+        display: none;
+    }
+
+    .heMobile{
+        display: flex;
+        font-size: 180pt;
+        line-height: 180pt;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 4pt;
+        color: white;
+        text-align: center;
+    }
+
+    .llMobile{
+        display:flex;
+        font-size: 180pt;
+        line-height: 180pt;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 6pt;
+        color: white;
+        text-align: center;
+    }
+
+    .oMobile{
+        display:flex;
+        font-size: 180pt;
+        line-height: 180pt;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 6pt;
+        color: white;
+        text-align: center;
+    }
+    
+    .welcomeBonjour{
+        display: none;
+    }
+
+    
+    .scrollWhite{
+        display: none;
+    }
+    
+    .scrollBlack{
+        display: block;
+        float: right;
+        width: 10pt;
+        margin-right: 23pt; 
+        margin-left:auto;
+        margin-top: 22pt;
+        animation-name: scroll;
+        animation-duration: 2s;
+        animation-iteration-count: 2000;
+    }
+    
+    .welcomeBonjourMobile{
+        display: block;
+        writing-mode: vertical-lr;
+        transform: rotate(-180deg);
+        font-size: 25pt;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        text-transform: lowercase;
+        letter-spacing: 4pt;
+        color: black;
+        float:right;
+        margin-top: -316pt;
+        margin-right: -12pt;
+    }
+    
+    .blackArrow{
+       margin-right: auto;
+       margin-left:auto;
+       
+    }
+    
+    @keyframes scroll {
+            0%   { transform: translateY(0); }
+            50%  { transform: translateY(-15px); }
+            100% { transform: translateY(0); }
+        }
+    
+
+/* About Page */
+
+.about{
+    height: auto;
+     padding-top: 60pt;
+     padding-bottom: 25pt;
+     padding-right: 10vw;
+     padding-left: 10vw;
+ }
+
+.imgContainer{
+    width: 225pt;
+    height: 275pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.aboutImg{
+    width:200pt;
+    height: 250pt;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    float: left; 
+    margin-left: -5pt;
+}
+
+.shadowBox{
+
+    width: 200pt;
+    height: 250pt;
+    background-color: #f3b495;
+    position: absolute;
+    z-index: 1;
+    margin-left: 30pt;
+    margin-top: 35pt;
+}
+
+.lable{
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin-right:13pt;
+    margin-top: 15pt;
+}
+
+
+/* Resume Page */
+.resume{
+    height: auto;
+     padding-top: 60pt;
+     padding-bottom: 30pt;
+     padding-right: 10pt;
+     padding-left: 10pt;
+ }
+
+ .download{    
+    width: 100%;
+    border: 2pt solid #d4715b;
+    border-radius: 3pt;
+    text-transform: uppercase;
+    color: #d4715b !important;
+    background-color: #ffffff00;
+    font-family: 'Montserrat';
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    margin-bottom: 20pt;
+    margin-top: 10pt;
+    float: left;
+    display: block;
+
+    }
+    .educationContainer{
+        margin-top:15pt;
+        margin-bottom: 15pt;
+    }
+
+    #edCC{
+        margin-bottom: 60pt;
+    }
+    .edIcon {
+        width: 100pt;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+    }
+
+    h5{
+        font-size: 15pt;
+    }
+
+
+    #institution{
+        font-size: 14pt;
+        text-transform: initial;
+    }
+
+    h6{
+        font-size: 11pt;
+    }
+
+
+    .skill{
+        font-weight: 600;
+        font-size: 14pt;
+        text-transform: uppercase;
+    }
+
+    .edHolder{
+        margin-top: 10pt;
+        margin-bottom: 20pt;
+    }
+
+    .skillIcon {
+        width: 100pt;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+    }
+
+
+/* Portfolio Page */
+.portfolio{
+    height: auto;
+     padding-top: 60pt;
+     padding-bottom: 60pt;
+     padding-right: 10pt;
+     padding-left: 10pt;
+ }
+
+ .portLeft{
+     margin-bottom: 40pt;
+ }
+ 
+.imgContainer-two{
+    width: 225pt;
+    height: 275pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-bottom: 50pt;
+    margin-top: 35pt;
+}
+
+.portImg{
+    width:200pt;
+    height: 250pt;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    float: right;
+    margin-right:-8pt;
+}
+
+.shadowBox-port{
+
+    width: 200pt;
+    height: 250pt;
+    background-color: #f3b495;
+    position: absolute;
+    z-index: 1;
+    margin-right: 35pt;
+    margin-top: 35pt;
+    margin-left:-8pt;
+
+}
+
+.type{
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    position: absolute;
+    z-index: 1;
+    float: right;
+    margin-left:13pt;
+    margin-top: 15pt;
+}
+
+/* Contact Page */
+
+.contact{
+    height: auto;
+     padding-top: 60pt;
+     padding-bottom: 60pt;
+     padding-right: 10pt;
+     padding-left: 10pt;
+     background-color: #f7f9fb;
+ }
+
+#fs-frm{
+    width: 200pt;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1280px) {
+
+.greetingContainer{
+    margin-right: 1vw;
+    padding-top: 30vh;
+    height: 79vh;
+}
+    
+.hello{
+    font-size: 100pt;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 6pt;
+    color: white;
+    text-Align: right;
+    margin-bottom: -20pt;
+
+}
+
+.heMobile, .llMobile, .oMobile{
+    display: none;
+}
+
+.welcomeBonjour{
+    font-size: 20pt;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: lowercase;
+    letter-spacing: 4pt;
+    color: black;
+    text-Align: right;
+
+}
+}
