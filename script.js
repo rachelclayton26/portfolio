@@ -25,51 +25,34 @@ let portfolioExerpts = {
     }]
 };
 
-// let porfolioDetails = document.getElementsByClassName("portItem");
+document.getElementById("poke").addEventListener("mouseover", () => {
+    let newImg = portfolioExerpts.id[0].url;
+    document.getElementById("portImg").src = `${newImg}`;
+    document.getElementById("exTitle").innerText = portfolioExerpts.id[0].name;
+    document.getElementById("explanation").innerText = portfolioExerpts.id[0].explanation;
+    document.getElementById("type").innerText = portfolioExerpts.id[0].type;
+})
 
-// for (i=0; i< porfolioDetails.length; i++){
-//     porfolioDetails[i].addEventListener("mouseover", event =>{
-//     // };
+document.getElementById("nasa").addEventListener("mouseover", () => {
+    let newImg = portfolioExerpts.id[1].url;
+    document.getElementById("portImg").src = `${newImg}`;
+    document.getElementById("exTitle").innerText = portfolioExerpts.id[1].name;
+    document.getElementById("explanation").innerText = portfolioExerpts.id[1].explanation;
+    document.getElementById("type").innertext = portfolioExerpts.id[1].type;
+})
 
+document.getElementById("kirby").addEventListener("mouseover", () => {
+    let newImg = portfolioExerpts.id[2].url;
+    document.getElementById("portImg").src = `${newImg}`;
+    document.getElementById("exTitle").innerText = portfolioExerpts.id[2].name;
+    document.getElementById("explanation").innerText = portfolioExerpts.id[2].explanation;
+    document.getElementById("type").innertext = portfolioExerpts.id[2].type;
+})
 
-// let porfolioDetailsNasa = document.getElementsById("nasa");
-// let porfolioDetailsKirby = document.getElementsById("kirby");
-// let porfolioDetailsHulu = document.getElementsById("hulu");
-
-// document.getElementsById("poke").addEventListener("mouseover", highlightPoke);
-// porfolioDetailsNasa.addEventListener("mouseover", highlightNasa);
-// porfolioDetailsKirby.addEventListener("mouseover", highlightKirby);
-// porfolioDetailsHulu.addEventListener("mouseover", highlightHulu);
-    
-// console.log(porfolioDetails);
-
-document.getElementsById("poke").addEventListener("mouseover", highlightPoke);
-
-function highlightPoke(){
-    let porfolioDetailsPoke = document.getElementsById("poke");
-    document.getElementsByClassName(".portImg").src = portfolioExerpts.id[0].url
-    document.getElementsByClassName("exTitle").innerText = portfolioExerpts.id[0].name
-    document.getElementsByClassName("explanation").innerText = portfolioExerpts.id[0].explanation
-    document.getElementsByClassName("type").innerText = portfolioExerpts.id[0].type    
-}
-
-function highlightNasa(){
-    document.getElementsByClassName(".portImg").src = portfolioExerpts.id[1].url
-    document.getElementsByClassName("exTitle").innerText = portfolioExerpts.id[1].name
-    document.getElementsByClassName("explanation").innerText = portfolioExerpts.id[1].explanation
-    document.getElementsByClassName("type").innerText = portfolioExerpts.id[1].type    
-}
-
-function highlightKirby(){
-    document.getElementsByClassName(".portImg").src = portfolioExerpts.id[2].url
-    document.getElementsByClassName("exTitle").innerText = portfolioExerpts.id[2].name
-    document.getElementsByClassName("explanation").innerText = portfolioExerpts.id[2].explanation
-    document.getElementsByClassName("type").innerText = portfolioExerpts.id[2].type    
-}
-
-function highlightHulu(){
-    document.getElementsByClassName(".portImg").src = portfolioExerpts.id[3].url
-    document.getElementsByClassName("exTitle").innerText = portfolioExerpts.id[3].name
-    document.getElementsByClassName("explanation").innerText = portfolioExerpts.id[3].explanation
-    document.getElementsByClassName("type").innerText = portfolioExerpts.id[3].type    
-}
+document.getElementById("hulu").addEventListener("mouseover", () => {
+    let newImg = portfolioExerpts.id[3].url;
+    document.getElementById("portImg").src = `${newImg}`;
+    document.getElementById("exTitle").innerText = portfolioExerpts.id[3].name;
+    document.getElementById("explanation").innerText = portfolioExerpts.id[3].explanation;
+    document.getElementById("type").innertext = portfolioExerpts.id[3].type;
+})
