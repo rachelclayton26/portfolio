@@ -310,7 +310,7 @@ hr {
 
 .downloadButton{
     width: 20%;
-    margin-top: 3pt;
+    margin-top: 8pt;
 }
 
 .download{    
@@ -320,6 +320,7 @@ hr {
     color: #d4715b !important;
     background-color: #ffffff00;
     font-family: 'Montserrat';
+    font-size: 10pt;
     padding-top: 5pt;
     padding-bottom: 3pt;
     display: flex;
@@ -330,7 +331,7 @@ hr {
 .download:hover {
     border: 2pt solid #d6a084;
     text-transform: uppercase;
-    padding-top: 5pt;
+    padding-top: 5pt;         
     background-color: #d6a084;
     color: white !important;
 }
@@ -340,7 +341,7 @@ hr {
     float: left;
 
 }
-
+                          
 .edIcon {
     margin-left:auto;
     margin-right:auto;
@@ -491,9 +492,10 @@ hr {
     border: 2pt solid #d4715b;
     border-radius: 3pt;
     text-transform: uppercase;
-    color: black;
+    color: #d4715b;
     background-color: #ffffff00;
     font-family: 'Montserrat';
+    font-size: 10pt;
     padding-top: 3pt;
     padding-bottom: 3pt;
 
@@ -757,8 +759,7 @@ hr {
     margin-top: 10pt;
     float: left;
     display: block;
-
-    }
+ }
     .educationContainer{
         margin-top:15pt;
         margin-bottom: 15pt;
