@@ -125,6 +125,11 @@ hr {
 }
 
 .actionbutton {
+    border: 0pt;
+    background-color: #ffffff00;
+}
+
+#getin{
     border: 2pt solid #d4715b;
     border-radius: 3pt;
     text-transform: uppercase;
@@ -133,11 +138,11 @@ hr {
     font-family: 'Montserrat';
 }
 
-.actionbutton:hover {
+#getin:hover{
     border: 2pt solid #d6a084;
     text-transform: uppercase;
     background-color: #d6a084;
-    color: white;
+    color: white !important;
 }
 
 
@@ -292,19 +297,30 @@ hr {
     background-color: #f7f9fb;
 }
 
-.educationAndSkills{
-    margin-left: 20%;
+.edAndSk{
+    width: 50%;
+}
+
+.edAndDown{
+    display: flex;
+}
+.edAndSk{
+   width: 80%;
+}
+
+.downloadButton{
+    width: 20%;
+    margin-top: 3pt;
 }
 
 .download{    
-
     border: 2pt solid #d4715b;
     border-radius: 3pt;
     text-transform: uppercase;
     color: #d4715b !important;
     background-color: #ffffff00;
     font-family: 'Montserrat';
-    padding-top: 3pt;
+    padding-top: 5pt;
     padding-bottom: 3pt;
     display: flex;
     float: right;
@@ -314,8 +330,9 @@ hr {
 .download:hover {
     border: 2pt solid #d6a084;
     text-transform: uppercase;
+    padding-top: 5pt;
     background-color: #d6a084;
-    color: white;
+    color: white !important;
 }
 
 .skills{
@@ -532,6 +549,26 @@ hr {
     h1{
         font-size: 32pt;
     }
+/* Nav Bar */
+
+.actionbutton {
+    border: 0pt;
+    background-color: #ffffff00;
+    margin-left: -3pt;
+}
+
+#getin{
+    border: 0pt solid #d4715b;
+    border-radius: 0pt;
+    padding-left: 0pt;
+    padding-right: 0pt;
+    text-transform: lowercase;
+    color: #d4715b !important;
+    background-color: #ffffff00;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    letter-spacing: 1px;
+}
 
 /* Home Page */
     .landing{
@@ -694,6 +731,16 @@ hr {
      padding-bottom: 30pt;
      padding-right: 10pt;
      padding-left: 10pt;
+ }
+
+.edAndDown{
+    display: block;
+ }
+ 
+ .downloadButton{
+     display: block;
+     width: 100%;
+     margin-top: 3pt;
  }
 
  .download{    
