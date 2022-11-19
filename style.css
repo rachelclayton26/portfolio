@@ -35,7 +35,6 @@ h3{
 
 h4{
     font-size: vw;
-    font-weight: ;
     text-transform: uppercase;
 }
 
@@ -54,7 +53,6 @@ h6{
 
 p{
     font-size: 13pt;
-    font-weight: ;
     text-align:justify;
 }
 
@@ -81,17 +79,17 @@ hr {
 
 /* NAVBAR */
 
-.nav{
+/* .nav{
 
-}
+} */
 
 .navbar.navbar-expand-lg.navbar-light
 {
     padding-left: 1.5vw;
     padding-right: 1.5vw;
 }
-.navbar.navbar-expand-lg {
-}
+/* .navbar.navbar-expand-lg {
+} */
 
 .navbar-nav{
     align: justify-content-end;
@@ -399,10 +397,44 @@ hr {
     position: relative;
     z-index: 2;
     float: right; 
+    border: 0pt;
+}
+
+.imgHover{
+    border: 0pt;
+    width:400pt;
+    height: 500pt;
+    background-color: #fce1d496;
+    object-fit: cover;
+    position: relative;
+    z-index: 3;
+    margin-top:-500pt;
+    float: right; 
+    opacity: 0;
+    text-decoration: none;
+    
+}
+
+.imgHover:hover{ 
+    opacity: 1;
+}
+
+.viewDetails{
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: bold;
+    font-size: 18pt;
+    text-transform:lowercase;
+    text-align: center;
+    margin-top: 250pt;
+    /* background-color: #d6a084;
+    border: 0pt;
+    border-radius: 3pt;
+    margin-right:120pt;
+    margin-left: 120pt; */
 }
 
 .shadowBox-port{
-
     width: 400pt;
     height: 500pt;
     background-color: #f3b495;
@@ -453,14 +485,14 @@ hr {
     z-index: 1;
 }
 
-.portfolioHover:hover {
-    /* display: block;
+/* .portfolioHover:hover {
+    display: block;
     position: absolute;
     z-index: 1;
     width: 12.25%;
     height: 12.25%;
-    background-color:#46464657; */
-}
+    background-color:#46464657;
+} */
 
 .portTitle{
     margin-top: 10pt;
