@@ -427,11 +427,6 @@ hr {
     text-transform:lowercase;
     text-align: center;
     margin-top: 250pt;
-    /* background-color: #d6a084;
-    border: 0pt;
-    border-radius: 3pt;
-    margin-right:120pt;
-    margin-left: 120pt; */
 }
 
 .shadowBox-port{
@@ -773,7 +768,7 @@ hr {
  
  .downloadButton{
      display: block;
-     width: 100%;
+     width: 85%;
      margin-top: 3pt;
  }
 
@@ -781,15 +776,18 @@ hr {
     width: 100%;
     border: 2pt solid #d4715b;
     border-radius: 3pt;
-    text-transform: uppercase;
+    text-transform: lowercase;
     color: #d4715b !important;
     background-color: #ffffff00;
     font-family: 'Montserrat';
+    font-size: 18pt;
+    font-weight: bold;
     padding-top: 10pt;
     padding-bottom: 10pt;
     margin-bottom: 20pt;
     margin-top: 10pt;
-    float: left;
+    margin-right: -20pt;
+    float: center;
     display: block;
  }
     .educationContainer{
@@ -853,6 +851,10 @@ hr {
  .portLeft{
      margin-bottom: 40pt;
  }
+
+ .explanation {
+    margin-bottom: -10pt;
+ }
  
 .imgContainer-two{
     width: 225pt;
@@ -862,7 +864,10 @@ hr {
     margin-right: auto;
     position: relative;
     margin-bottom: 50pt;
-    margin-top: 35pt;
+    margin-top: 45pt;
+    padding-top: 0pt;
+    padding-bottom: 250pt;
+    /* background-color: purple; */
 }
 
 .portImg{
@@ -875,8 +880,36 @@ hr {
     margin-right:-8pt;
 }
 
-.shadowBox-port{
+.imgHover{
+    border: 2pt solid #d4715b;
+    border-radius: 3pt;
+    width: 92%;
+    height: 50pt;
+    object-fit: cover;
+    position: relative;
+    z-index: 3;
+    margin-top: 70pt;
+    margin-bottom: 90pt;
+    margin-right: 8pt;
+    float: center; 
+    opacity: 1;
+    text-decoration: none;
+    background-color: #ffffff00;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+}
 
+.viewDetails{
+    font-family: 'Montserrat';
+    color: #d4715b !important;
+    font-weight: bold;
+    font-size: 18pt;
+    text-transform:lowercase;
+    text-align: center;
+    margin-top: 0pt;
+}
+
+.shadowBox-port{
     width: 200pt;
     height: 250pt;
     background-color: #f3b495;
@@ -914,6 +947,29 @@ hr {
     margin-right: auto;
     margin-left: auto;
 }
+
+.contact{
+         padding-bottom: 20vh;
+}
+
+.btn{    
+    width: 100%;
+    border: 2pt solid #d4715b;
+    border-radius: 3pt;
+    text-transform: lowercase;
+    color: #d4715b !important;
+    background-color: #ffffff00;
+    font-family: 'Montserrat';
+    font-size: 18pt;
+    font-weight: bold;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    margin-bottom: 20pt;
+    margin-top: 10pt;
+    float: left;
+    display: block;
+ }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 1280px) {
@@ -950,7 +1006,95 @@ hr {
     text-Align: right;
 
 }
+.downloadButton{
+    display: block;
+    width: 85%;
+    margin-top: 3pt;
+}
+
+.download{    
+   width: 100%;
+   border: 2pt solid #d4715b;
+   border-radius: 3pt;
+   text-transform: lowercase;
+   color: #d4715b !important;
+   background-color: #ffffff00;
+   font-family: 'Montserrat';
+   font-size: 18pt;
+   font-weight: bold;
+   padding-top: 10pt;
+   padding-bottom: 10pt;
+   margin-bottom: 20pt;
+   margin-top: 10pt;
+   margin-right: -20pt;
+   float: center;
+   display: block;
+}
+
 .educationAndSkills{
     margin-left: -30pt;
 }
+#fs-frm{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#full-name, #email-address, #message, #email-subject{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 28pt;
+    margin-bottom: 28pt;
+    border: none;
+    display: flex;
+    width: 100%;
+}
+ 
+.imgContainer-two{
+    margin-bottom: 50pt;
+    margin-top: 45pt;
+    padding-top: 0pt;
+    padding-bottom: 100pt;
+    /* background-color: purple; */
+}
+
+.imgHover{
+    border: 2pt solid #d4715b;
+    border-radius: 3pt;
+    height: 40pt;
+    margin-top: 90pt;
+    margin-bottom: 80pt;
+    margin-right: 80pt;
+    float: center; 
+    opacity: 1;
+    text-decoration: none;
+    background-color: #ffffff00;
+    padding-top: 6pt;
+    padding-bottom: 6pt;
+    width: 60%;
+}
+
+.viewDetails{
+    font-family: 'Montserrat';
+    color: #d4715b !important;
+    font-weight: bold;
+    font-size: 18pt;
+    text-transform:lowercase;
+    text-align: center;
+    margin-top: 0pt;
+}
+
+.btn{
+    width:100%;
+    border: 2pt solid #d4715b;
+    border-radius: 3pt;
+    text-transform: lowercase;
+    color: #d4715b;
+    background-color: #ffffff00;
+    font-family: 'Montserrat';
+    font-size: 18pt;
+    font-weight: bold;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+
+    }
 }

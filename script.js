@@ -262,4 +262,3 @@ document.getElementById("plan").addEventListener("mouseover", () => {
     document.getElementById("type").innerHTML = portfolioExerpts.id[14].type;
     document.getElementById("portLink").href=`${newLink}`;
 })
-
